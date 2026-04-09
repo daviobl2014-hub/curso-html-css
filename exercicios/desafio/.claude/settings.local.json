@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(keybindings-help)",
+      "Skill(keybindings-help:*)",
+      "Bash(code --list-extensions)"
+    ]
+  }
+}
