@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h2>Newsletter</h2>
+        <form action="">
+          <div>
+            <label for="name">Nome(Apenas Letras)</label>
+            <input
+              id="name"
+              name="nome"
+              type="text"
+              pattern="[a-zA-Z ]+"
+              title="Esse Input só aceita letra, não aceita numero."
+              required
+              placeholder=" Seu primeiro nome"
+            />
+          </div>
+
+          <div>
+            <label for="email">Email:</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder=" Seu melhor email"
+            />
+          </div>
+
+          <div>
+            <label for="phone">Telefone:</label>
+            <input
+              id="phone"
+              name="phone"
+              type="number"
+              placeholder=" Seu melhor telefone"
+            />
+          </div>
+
+          <button type="submit">Enviar!</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
