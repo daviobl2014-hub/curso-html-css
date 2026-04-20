@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tipos de Posicionamentos</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        font-size: 62.5%;
+      }
+      /* position: static, relative, absolute, fixed, sticky */
+      h1 {
+        font-size: 3.2rem;
+      }
+      h2 {
+        font-size: 2.4rem;
+      }
+      p,
+      a {
+        font-size: 1.6rem;
+        color: inherit;
+      }
+      .texto-stick {
+        position: sticky;
+        top: 2rem;
+      }
+      p {
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+      }
+      a:first-child {
+        /* lembrar de colocar com posionamento relativo o elemento para o qual voce esta buscando o posicionamento absoluto */
+
+        position: absolute;
+        bottom: 2rem;
+        right: 0;
+      }
+      .box {
+        position: relative;
+        /*
+        top: 20rem;
+        left: 20rem;
+        right:;
+        bottom:; */
+        height: 70rem;
+        width: 30rem;
+        background-color: green;
+        color: white;
+      }
+    </style>
+    <div class="box">
+      <a href="">Acesse meu site</a>
+      <a href="">Acesse meu site</a>
+      <p class="texto-stick">Textinho qualquer</p>
+    </div>
+
+    <p>paragrafo</p>
+  </body>
+</html>
